@@ -1,0 +1,29 @@
+{
+  "name": "civic-issues-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "expo": "~54.0.0",
+    "expo-camera": "~17.0.10",
+    "expo-location": "~19.0.8",
+    "expo-router": "~6.0.21",
+    "expo-splash-screen": "~31.0.13",
+    "expo-status-bar": "~2.0.0",
+    "firebase": "^12.7.0",
+    "react": "^19.2.3",
+    "react-native": "^0.83.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "typescript": "~5.9.2"
+  }
+}
